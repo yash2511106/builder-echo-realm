@@ -271,15 +271,23 @@ export default function Dashboard() {
                 </p>
               </div>
               <div className="flex items-center space-x-4">
-                <div className="flex items-center space-x-2">
-                  <Switch
-                    id="inclusive-mode"
-                    checked={inclusiveMode}
-                    onCheckedChange={setInclusiveMode}
-                  />
-                  <Label htmlFor="inclusive-mode" className="text-sm">
-                    Inclusive Mode
-                  </Label>
+                <div className="flex items-center space-x-4">
+                  <div className="flex items-center space-x-2">
+                    <Switch
+                      id="inclusive-mode"
+                      checked={inclusiveMode}
+                      onCheckedChange={setInclusiveMode}
+                    />
+                    <Label htmlFor="inclusive-mode" className="text-sm">
+                      Inclusive Mode
+                    </Label>
+                  </div>
+                  <Link to="/inclusive-rewrite">
+                    <Button variant="outline" size="sm">
+                      <Sparkles className="h-4 w-4 mr-2" />
+                      Inclusive Rewriter
+                    </Button>
+                  </Link>
                 </div>
                 <ThemeToggle />
               </div>
