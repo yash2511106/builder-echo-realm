@@ -33,6 +33,8 @@ const App = () => (
             <Route path="/register" element={<Register />} />
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/demo" element={<Demo />} />
+            <Route path="/inclusive-rewrite" element={<InclusiveRewrite />} />
+            <Route path="/history" element={<History />} />
             <Route
               path="/settings"
               element={
@@ -40,16 +42,6 @@ const App = () => (
                   title="Settings"
                   description="Manage your account preferences, notification settings, and integration options."
                   icon={<Settings className="h-8 w-8 text-primary" />}
-                />
-              }
-            />
-            <Route
-              path="/history"
-              element={
-                <PlaceholderPage
-                  title="Analysis History"
-                  description="View your previous bias analyses, compare results, and download reports."
-                  icon={<History className="h-8 w-8 text-primary" />}
                 />
               }
             />
