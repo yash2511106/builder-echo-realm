@@ -70,18 +70,30 @@ export default function Dashboard() {
               <Target className="h-4 w-4 mr-3" />
               Bias Analysis
             </Button>
-            <Button variant="ghost" className="w-full justify-start" size="sm">
-              <History className="h-4 w-4 mr-3" />
-              History
-            </Button>
+            <Link to="/history">
+              <Button
+                variant="ghost"
+                className="w-full justify-start"
+                size="sm"
+              >
+                <History className="h-4 w-4 mr-3" />
+                History
+              </Button>
+            </Link>
             <Button variant="ghost" className="w-full justify-start" size="sm">
               <BarChart3 className="h-4 w-4 mr-3" />
               Analytics
             </Button>
-            <Button variant="ghost" className="w-full justify-start" size="sm">
-              <Settings className="h-4 w-4 mr-3" />
-              Settings
-            </Button>
+            <Link to="/settings">
+              <Button
+                variant="ghost"
+                className="w-full justify-start"
+                size="sm"
+              >
+                <Settings className="h-4 w-4 mr-3" />
+                Settings
+              </Button>
+            </Link>
           </nav>
         </div>
 
