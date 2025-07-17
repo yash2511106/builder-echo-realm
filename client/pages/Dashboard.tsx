@@ -108,10 +108,12 @@ export default function Dashboard() {
               <p className="text-xs text-muted-foreground">Recruiter</p>
             </div>
           </div>
-          <Button variant="ghost" size="sm" className="w-full justify-start">
-            <LogOut className="h-4 w-4 mr-3" />
-            Sign Out
-          </Button>
+          <Link to="/">
+            <Button variant="ghost" size="sm" className="w-full justify-start">
+              <LogOut className="h-4 w-4 mr-3" />
+              Sign Out
+            </Button>
+          </Link>
         </div>
       </aside>
 
