@@ -143,6 +143,7 @@ export default function Dashboard() {
                     Inclusive Mode
                   </Label>
                 </div>
+                <ThemeToggle />
               </div>
             </div>
           </div>
