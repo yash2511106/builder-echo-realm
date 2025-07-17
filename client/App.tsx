@@ -14,7 +14,9 @@ import Register from "./pages/Register";
 import Dashboard from "./pages/Dashboard";
 import Demo from "./pages/Demo";
 import PlaceholderPage from "./pages/PlaceholderPage";
-import { Settings, History, FileText, HelpCircle } from "lucide-react";
+import InclusiveRewrite from "./pages/InclusiveRewrite";
+import History from "./pages/History";
+import { Settings, FileText, HelpCircle } from "lucide-react";
 
 const queryClient = new QueryClient();
 
