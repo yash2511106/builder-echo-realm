@@ -23,6 +23,7 @@ import {
   X,
   RefreshCw,
 } from "lucide-react";
+import { ThemeToggle } from "@/components/theme-toggle";
 
 export default function Dashboard() {
   const [jobDescription, setJobDescription] = useState("");
