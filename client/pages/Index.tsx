@@ -48,6 +48,7 @@ export default function Index() {
             >
               Pricing
             </a>
+            <ThemeToggle />
             <Link to="/login">
               <Button variant="ghost">Login</Button>
             </Link>
