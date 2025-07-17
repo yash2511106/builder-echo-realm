@@ -39,6 +39,7 @@ import {
   Clock,
   TrendingUp,
   MessageSquare,
+  Sparkles,
 } from "lucide-react";
 import { ThemeToggle } from "@/components/theme-toggle";
 
