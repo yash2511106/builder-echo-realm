@@ -57,6 +57,16 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        bias: {
+          gender: "hsl(var(--bias-gender))",
+          age: "hsl(var(--bias-age))",
+          racial: "hsl(var(--bias-racial))",
+          religious: "hsl(var(--bias-religious))",
+          disability: "hsl(var(--bias-disability))",
+        },
+        success: "hsl(var(--success))",
+        warning: "hsl(var(--warning))",
+        info: "hsl(var(--info))",
       },
       borderRadius: {
         lg: "var(--radius)",
